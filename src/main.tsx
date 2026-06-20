@@ -100,6 +100,9 @@ function App() {
             <ExternalLink size={18} />
             API
           </a>
+          <a href="https://michaelsam94.tech" target="_blank" rel="noreferrer">
+            Developed by michaelsam94
+          </a>
         </header>
 
         <label className="searchBox">

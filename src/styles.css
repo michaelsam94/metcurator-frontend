@@ -73,6 +73,11 @@ h2 {
   text-decoration: none;
 }
 
+.topbar > a:last-child {
+  color: #4f4a44;
+  font-size: 0.92rem;
+}
+
 .searchBox {
   align-items: center;
   background: #ffffff;
