@@ -1,6 +1,7 @@
 import type { ApiError, Collection, Department, MetObject, SafeUser } from "./types";
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? "http://localhost:8787";
+const API_BASE_URL =
+  import.meta.env.VITE_API_BASE_URL ?? "https://met-curator-api.michaelsam00.workers.dev";
 
 type RequestOptions = {
   token?: string | null;
