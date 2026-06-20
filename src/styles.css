@@ -109,6 +109,36 @@ h2 {
   margin-top: 24px;
 }
 
+.about {
+  border-top: 1px solid #ddd8cf;
+  color: #312d29;
+  display: grid;
+  gap: 12px;
+  margin-top: 40px;
+  max-width: 840px;
+  padding-top: 28px;
+}
+
+.about h2,
+.about h3,
+.about p {
+  margin: 0;
+}
+
+.about h2 {
+  font-size: 1.55rem;
+}
+
+.about h3 {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+.about p {
+  color: #5d5750;
+  line-height: 1.6;
+}
+
 .tile {
   appearance: none;
   background: transparent;

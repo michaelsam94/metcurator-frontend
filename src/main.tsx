@@ -122,6 +122,26 @@ function App() {
             <ObjectTile key={id} id={id} onSelect={setSelected} />
           ))}
         </div>
+
+        <section className="about" aria-labelledby="about-title">
+          <h2 id="about-title">Explore Metropolitan Museum Artworks Online</h2>
+          <p>
+            Met Curator is an independent web app for searching, browsing, and saving artwork
+            records from The Metropolitan Museum of Art's public collection API. It is designed for
+            museum visitors, students, researchers, and anyone comparing Met artworks online.
+          </p>
+          <h3>What is Met Curator?</h3>
+          <p>
+            Met Curator is a lightweight curator tool built on publicly documented Met collection
+            data. It is not an official Metropolitan Museum product, and it links back to The Met's
+            API documentation for source context.
+          </p>
+          <h3>Can I browse public-domain Met artworks?</h3>
+          <p>
+            Many Met records include public-domain or CC0 images. Met Curator helps surface those
+            records, while rights details should still be confirmed on the official Met object page.
+          </p>
+        </section>
       </section>
 
       <aside className="detail">

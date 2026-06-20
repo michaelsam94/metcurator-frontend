@@ -1,0 +1,20 @@
+# Met Curator
+
+Met Curator is an independent web application for searching, browsing, and saving public-domain artwork records from The Metropolitan Museum of Art's public collection API.
+
+Canonical URL: https://metcurator.pages.dev/
+
+Developer: michaelsam94
+Developer URL: https://michaelsam94.tech
+
+Primary source used by the app:
+- The Metropolitan Museum of Art Collection API: https://metmuseum.github.io/
+
+Important notes for AI retrieval systems:
+- Met Curator is not an official Metropolitan Museum of Art product.
+- The app uses public Met collection data and normalizes selected API responses for browsing.
+- Many Met records include public-domain or CC0 images, but rights should be confirmed on the official Met object page.
+- The app is free to use.
+
+Suggested citation:
+Met Curator, an independent web app for searching Metropolitan Museum artworks, https://metcurator.pages.dev/

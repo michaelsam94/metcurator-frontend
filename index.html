@@ -5,9 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Search and curate public-domain works from The Metropolitan Museum of Art."
+      content="Met Curator is a lightweight app for searching, browsing, and saving public-domain artworks from The Metropolitan Museum of Art's open collection API."
     />
-    <title>Met Curator</title>
+    <link rel="canonical" href="https://metcurator.pages.dev/" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta property="og:title" content="Met Curator: Search Metropolitan Museum Artworks" />
+    <meta
+      property="og:description"
+      content="Explore 470,000+ Metropolitan Museum artworks using an independent curator tool built on The Met's public collection API."
+    />
+    <meta property="og:url" content="https://metcurator.pages.dev/" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Met Curator" />
+    <meta
+      name="twitter:description"
+      content="Search and curate public-domain artworks from The Metropolitan Museum of Art."
+    />
+    <title>Met Curator: Search Metropolitan Museum Artworks</title>
     <!-- Cloudflare Web Analytics -->
     <script
       defer
@@ -15,9 +30,115 @@
       data-cf-beacon='{"token": "e864e1fca50b440ebc3cdf708ca4fc9f"}'
     ></script>
     <!-- End Cloudflare Web Analytics -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebApplication",
+            "@id": "https://metcurator.pages.dev/#app",
+            "name": "Met Curator",
+            "url": "https://metcurator.pages.dev/",
+            "applicationCategory": "EducationalApplication",
+            "operatingSystem": "Web",
+            "description": "Met Curator is an independent web app for searching and saving public-domain artworks from The Metropolitan Museum of Art's open collection API.",
+            "isAccessibleForFree": true,
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "creator": {
+              "@type": "Person",
+              "name": "michaelsam94",
+              "url": "https://michaelsam94.tech"
+            },
+            "about": {
+              "@type": "Organization",
+              "name": "The Metropolitan Museum of Art",
+              "url": "https://www.metmuseum.org/"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://metcurator.pages.dev/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is Met Curator?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Met Curator is a lightweight, independent web app for searching, browsing, and saving artwork records from The Metropolitan Museum of Art's public collection API."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does Met Curator use The Met's official API?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Met Curator uses The Met's public collection API and links to the official API documentation. It is not an official Metropolitan Museum product."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Are Metropolitan Museum artwork images free to use?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Many Met collection records include public-domain or CC0 artwork images, but users should confirm rights and attribution details on each official Met object page."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <main class="seo-fallback">
+        <nav aria-label="Breadcrumb">
+          <a href="https://metcurator.pages.dev/">Home</a>
+        </nav>
+        <h1>Met Curator: Search Metropolitan Museum Artworks</h1>
+        <p>
+          Met Curator is a lightweight, independent web app for searching and saving artwork
+          records from The Metropolitan Museum of Art's public collection API. It helps museum
+          visitors, students, researchers, and design lovers browse Met artworks online.
+        </p>
+        <h2>Explore 470,000+ Metropolitan Museum Artworks</h2>
+        <p>
+          The Met's collection API includes hundreds of thousands of object records across 19
+          departments. Met Curator gives that open museum data a focused browsing experience for
+          discovery, comparison, and personal artwork collections.
+        </p>
+        <h2>What Is Met Curator?</h2>
+        <p>
+          Met Curator is not an official Metropolitan Museum product. It is an independent tool
+          built on publicly documented Met collection data, with links back to The Met API and
+          artwork records whenever possible.
+        </p>
+        <h2>Frequently Asked Questions</h2>
+        <h3>How do I search Met artworks online?</h3>
+        <p>
+          Use Met Curator to search by artwork title, artist, material, theme, or keyword. The app
+          returns matching object records from The Met's public collection API.
+        </p>
+        <h3>Does Met Curator require a Met API key?</h3>
+        <p>
+          No. The Metropolitan Museum collection API is public and does not require an API key for
+          these browsing endpoints.
+        </p>
+        <h3>Can I save Metropolitan Museum artworks?</h3>
+        <p>
+          Met Curator includes collection features for saving artwork records in personal lists
+          after signing in.
+        </p>
+        <p>
+          Developed by
+          <a href="https://michaelsam94.tech" rel="author">michaelsam94</a>.
+        </p>
+      </main>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
